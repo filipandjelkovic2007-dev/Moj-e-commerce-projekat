@@ -1,0 +1,350 @@
+<!DOCTYPE HTML>
+<html lang="sr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Korpa</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="slike/favicon-32x32.png" data-favicon-text="Tehnosen">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/stilizacija_celog_sajta.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=account_box,search,shopping_cart" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
+    <script src="js/glavno.js" defer></script>
+</head>
+<body>
+    <div class="navbar">
+      <h1 class="brand">Tehnosen</h1>
+      <input type="checkbox" id="check">
+        <label for="check" class="toggle">
+            <span class="top_line common"></span>
+            <span class="middle_line common"></span>
+            <span class="bottom_line common"></span>
+        </label>
+      <nav class="primary-nav">
+        <div class="primary-nav_item">
+            <a href="#" title="Početna stranica">Početna</a>
+        </div>
+        <div class="primary-nav_divider"></div>
+
+        <div class="primary-nav_item">
+            <a href="stranica_proizvoda.html" title="Stranica proizvoda">Proizvodi</a>
+        </div>
+        <div class="primary-nav_divider"></div>
+
+        <div class="primary-nav_item">
+            <a href="#" title="Blog stranica">Blog</a>
+        </div>
+        <div class="primary-nav_divider"></div>
+
+        <div class="primary-nav_item">
+            <a href="#" title="Kontakt stranica">Kontakt</a>
+        </div>
+        <div class="primary-nav_divider"></div>
+
+        <div class="primary-nav_item">
+            <a href="#" title="Stranica lokacije">Lokacija</a>
+        </div>
+        <div class="search">
+            <input type="text" placeholder="Pretrazite" class="search-box"/>
+            <span class="material-symbols-outlined search-box-icon">search</span>
+        </div>
+        <div class="action-item">
+            <a href="login_stranica.html"><span class="material-symbols-outlined action-item-icon" title="Nalog">account_box</span></a>
+            <div class="cart-wrapper">
+                <a href="potvrda_kupovine.html" class="cart-icon" id="cart-icon"><i class="material-symbols-outlined action-item-icon" title="Korpa">shopping_cart</i><span id="cart-count"></span></a>
+                <div id="cart-dropdown">
+                    <h4>Vaša korpa</h4>
+                    <div id="cart-items-list">
+                        <!-- Ovde će JavaScript ubaciti artikle -->
+                    </div>
+                    <hr>
+                    <div class="cart-dropdown-total" id="cart-dropdown-total">
+                        <!-- <span>Ukupno:</span>
+                        <span id="cart-dropdown-total">$0.00</span> -->
+                    </div>
+                    <button id="clear-cart-dropdown">Ispraznite celu korpu</button>
+                </div>
+            </div>
+        </div>
+      </nav>
+    </div>
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-lg-6 mb-4">
+                <div class="cart-items">
+                    <div class="card mb-3 border-0 shadow-sm">
+                        <div class="card-body p-3">
+                            <div class="d-flex gap-3">
+                                <div class="cart-item-image">
+                                    <img src="slike/samsung-galaxy-s25-coralred.png" alt="SAMSUNG Galaxy S25 Ultra 12/128GB Koralno-crveni">
+                                </div>
+                                <div class="flex-grow-1">
+                                    <div class="d-flex justify-content-between mb-2">
+                                        <h6 class="fw-semibold mb-0">SAMSUNG Galaxy S25 Ultra 12/128GB Koralno-crveni</h6>
+                                        <a href="#" class="text-danger text-decoration-none small">Uklonite</a>
+                                    </div>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="d-flex align-items-center gap-1">
+                                            <button class="btn btn-sm btn-outline-secondary rounded-circle quantity-btn">-</button>
+                                            <span class="px-2">1</span>
+                                            <button class="btn btn-sm btn-outline-success rounded-circle quantity-btn">+</button>
+                                        </div>
+                                        <span class="fw-bold">1099 EUR</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3 border-0 shadow-sm">
+                        <div class="card-body p-3">
+                            <div class="d-flex gap-2">
+                                <div class="cart-item-image">
+                                    <img src="slike/Untitled design.png" alt="SAMSUNG Galaxy S25 12/128GB Ledeno-plavi">
+                                </div>
+                                <div class="flex-grow-1">
+                                    <div class="d-flex justify-content-between mb-2">
+                                        <h6 class="fw-semibold mb-0">SAMSUNG Galaxy S25 12/128GB Ledeno-plavi</h6>
+                                        <a href="#" class="text-danger text-decoration-none small">Uklonite</a>
+                                    </div>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="d-flex align-items-center gap-1">
+                                            <button class="btn btn-sm btn-outline-secondary rounded-circle quantity-btn">-</button>
+                                            <span class="px-2">1</span>
+                                            <button class="btn btn-sm btn-outline-success rounded-circle quantity-btn">+</button>
+                                        </div>
+                                        <span class="fw-bold">849 EUR</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3 border-0 shadow-sm">
+                        <div class="card-body p-3">
+                            <div class="d-flex gap-3">
+                                <div class="cart-item-image">
+                                    <img src="slike/Untitled design1.png" alt="SAMSUNG Galaxy S25 FE 8/128GB Amber-žuti">
+                                </div>
+                                <div class="flex-grow-1">
+                                    <div class="d-flex justify-content-between mb-2">
+                                        <h6 class="fw-semibold mb-0">SAMSUNG Galaxy S25 FE 8/128GB Amber-žuti</h6>
+                                        <a href="#" class="text-danger text-decoration-none small">Uklonite</a>
+                                    </div>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="d-flex align-items-center gap-1">
+                                            <button class="btn btn-sm btn-outline-secondary rounded-circle quantity-btn">-</button>
+                                            <span class="px-2">1</span>
+                                            <button class="btn btn-sm btn-outline-success rounded-circle quantity-btn">+</button>
+                                        </div>
+                                        <span class="fw-bold">949 EUR</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3 border-0 shadow-sm">
+                        <div class="card-body p-3">
+                            <div class="d-flex gap-3">
+                                <div class="cart-item-image">
+                                    <img src="slike/Untitled design2.png" alt="SAMSUNG Galaxy S25 FE 8/128GB Crni">
+                                </div>
+                                <div class="flex-grow-1">
+                                    <div class="d-flex justify-content-between mb-2">
+                                        <h6 class="fw-semibold mb-0">SAMSUNG Galaxy S25 FE 8/128GB Crni</h6>
+                                        <a href="#" class="text-danger text-decoration-none small">Uklonite</a>
+                                    </div>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="d-flex align-items-center gap-1">
+                                            <button class="btn btn-sm btn-outline-secondary rounded-circle quantity-btn">-</button>
+                                            <span class="px-2">1</span>
+                                            <button class="btn btn-sm btn-outline-success rounded-circle quantity-btn">+</button>
+                                        </div>
+                                        <span class="fw-bold">899 EUR</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ============================================
+                 ORDER SUMMARY SIDEBAR
+                 col-lg-5 - 5 kolona od 12 na large ekranima (42% širine)
+                 Sticky pozicioniranje omogućava da summary ostane vidljiv pri skrolovanju
+                 ============================================ -->
+            <div class="col-lg-5">
+                <!-- card - Bootstrap kartica
+                     border-0 - bez bordera
+                     shadow-sm - mala senka -->
+                <div class="card border-0 shadow-sm">
+                    <!-- card-body - telo kartice sa paddingom -->
+                    <div class="card-body">
+                        <!-- fw-bold - podebljan tekst
+                             mb-4 - margin-bottom 1.5rem -->
+                        <h5 class="fw-bold mb-4">Order Summary</h5>
+
+                        <!-- SUBTOTAL
+                             d-flex - flex container
+                             justify-content-between - elementi na krajevima
+                             mb-2 - margin-bottom 0.5rem -->
+                        <div class="d-flex justify-content-between mb-2">
+                            <!-- text-muted - siva boja teksta -->
+                            <span class="text-muted">Međuzbir</span>
+                            <!-- fw-semibold - font-weight 600 -->
+                            <span class="fw-semibold">3796 EUR</span>
+                        </div>
+
+                        <!-- DISCOUNT
+                             pb-3 - padding-bottom 1rem
+                             border-bottom - donji border
+                             mb-3 - margin-bottom 1rem -->
+                        <div class="d-flex justify-content-between mb-3 pb-3 border-bottom">
+                            <span class="text-muted">Popust</span>
+                            <!-- text-danger - crvena boja (za popust) -->
+                            <span class="text-danger fw-semibold">0</span>
+                        </div>
+
+                        <!-- TOTAL
+                             mb-4 - margin-bottom 1.5rem
+                             fs-5 - font-size 5 (1.25rem) -->
+                        <div class="d-flex justify-content-between mb-4">
+                            <span class="fw-bold">Ukupno</span>
+                            <span class="fw-bold fs-5">3796 EUR</span>
+                        </div>
+
+                        <!-- PROMO CODE INPUT
+                            input-group - Bootstrap komponenta koja spaja input i button
+                            mb-3 - margin-bottom 1rem -->
+                        <!-- Forma za promo kod -->
+                        <form id="promo-form" class="promo-code-form">
+                            <div class="input-group mb-3">
+                                <!-- form-control - Bootstrap input stil -->
+                                <input type="text" id="promo-input" class="form-control" placeholder="Dodajte promo-kod" aria-label="Promo code">
+                                <!-- btn btn-dark - tamno dugme -->
+                                <button class="btn btn-dark" type="button" id="apply-btn">Primenite</button>
+                            </div>
+                        </form>
+
+                        <!-- CHECKOUT DUGME
+                        btn btn-dark - tamno dugme
+                        w-100 - width 100%
+                        mb-3 - margin-bottom 1rem -->
+                        <!-- d-flex - flex container
+                        align-items-center - vertikalno centriranje
+                        justify-content-center - horizontalno centriranje
+                        gap-2 - razmak 0.5rem -->
+
+                        <!-- INFORMATIVNE PORUKE
+                            small - manji font
+                            text-muted - siva boja -->
+                        <div class="small text-muted">
+                            <!-- mb-2 - margin-bottom 0.5rem -->
+                            <!-- <p class="mb-2">
+                                <span class="material-icons small align-middle">local_shipping</span>
+                                Ships and orders will be displayed when you complete your purchase.
+                            </p>
+                            <p class="mb-2">We have 30 days to change your mind more than double the online average.</p> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="card border-0 shadow-sm mt-1">
+                    <div class="card-body">
+                        <h5 class="fw-bold mb-3">Informacije za isporuku</h5>
+                        <div class="d-block justify-content-between mb-2">
+                            <input type="text" name="name" id="name" placeholder="Ime" required>
+                            <input type="text" name="surname" id="surname" placeholder="Prezime" required>
+                            <input type="text" name="address" id="address" placeholder="Adresa" required>
+                            <input type="text" name="additional" id="additional" placeholder="Broj stana, sprat, itd. (opciono)">
+                            <select class=input name="country" id="country" required>
+                            <option value="" disabled selected>Država</option>
+                            <optgroup label="Balkan">
+                                <option value="serbia">Srbija</option>
+                                <option value="croatia">Hrvatska</option>
+                                <option value="bosnia">Bosna i Hercegovina</option>
+                                <option value="slovenia">Slovenija</option>
+                                <option value="montenegro">Crna Gora</option>
+                            </optgroup>
+                            </select>
+                            <select class=input name="city" id="city" required>
+                            <option value="" disabled selected>Grad</option>
+                            <optgroup label="Srbija">
+                                <option value="belgrade">Beograd</option>
+                                <option value="zagreb">Zagreb</option>                
+                                <option value="sarajevo">Sarajevo</option>
+                                <option value="ljubljana">Ljubljana</option>
+                                <option value="podgorica">Podgorica</option>
+                            </optgroup>
+                            </select>
+                            <input type="number" name="postal" id="postal" placeholder="Poštanski broj" required><br><br>
+                            <input type="checkbox" name="question" value="Like" class="question">
+                            <label for="question" class="form-label">Sačuvajte informacije za kontakt</label>
+                        </div>
+                        <div class="mb-1">
+                            <h5 class="fw-bold mb-3">Način plaćanja</h5>
+                            <button type="button" class="paypal-btn">PayPal</button>
+                            <button type="button" class="cash-btn" required>Gotovina</button>
+                            <hr>
+                            <input type="text" name="cardholdername" placeholder="Ime vlasnika kartice" required minlength="3"><br><br>
+                            <input type="text" name="cardnumber" placeholder="Broj kartice" required pattern="\d{13,19}" title="Unesite validan broj kartice (13-19 cifara)"><br><br>
+                            <input type="text" name="expirydate" placeholder="Datum isteka (MM/YY)" required pattern="(0[1-9]|1[0-2])\/\d{2}" title="Format: MM/YY">
+                            <input type="text" name="cvv" placeholder="CVV" required pattern="\d{3,4}" title="3 ili 4 cifre"><br><br>
+                            <input type="checkbox" name="question" value="Like" class="question">
+                            <label for="question" class="form-label">Sačuvajte informacije o kartici za buduće kupovine</label>
+                        </div>
+                        <button class="btn btn-primary w-100 mb-3">
+                            <span class="d-flex align-items-center justify-content-center gap-2">
+                                Potvrdite kupovinu
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="inner container">
+           <div class="footer-columns">
+               <div class="footer-col">
+                    <h4>Kategorije</h4>
+                    <ul>
+                        <li><a href="#">Telefoni</a></li>
+                        <li><a href="#">Laptopovi</a></li>
+                        <li><a href="#">Tableti</a></li>
+                        <li><a href="#">Oprema</a></li>
+                    </ul>
+               </div>
+                <div class="footer-col">
+                    <h4>Informacije</h4>
+                    <ul>
+                        <li><a href="#">O nama</a></li>
+                        <li><a href="#">Kontakt</a></li>
+                        <li><a href="#">Politika privatnosti</a></li>
+                        <li><a href="#">Uslovi korišćenja</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Korisnička Podrška</h4>
+                    <ul>
+                        <li><a href="#">Česta pitanja</a></li>
+                        <li><a href="#">Vodiči za kupovinu</a></li>
+                        <li><a href="#">Garancija i povraćaj</a></li>
+                        <li><a href="#">Praćenje porudžbine</a></li>
+                    </ul>
+                </div>
+                <div class="social">
+                    <p>Pratite nas:</p>
+                    <div class="social-links">
+                        <a href="#"><img src="slike/facebook-app-symbol.png" alt="Facebook"></a>
+                        <a href="#"><img src="slike/twitter.png" alt="Twitter"></a>
+                        <a href="#"><img src="slike/instagram.png" alt="Instagram"></a>
+                        <a href="#"><img src="slike/linkedin-big-logo.png" alt="LinkedIn"></a>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </div>        
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
