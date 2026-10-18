@@ -21,7 +21,7 @@ Platforma za e-trgovinu na srpskom jeziku, namenjena pregledu proizvoda i simula
 
 ## Pokretanje na lokalnom računaru
 
-Zahtevi: Node.js
+Zahtev: Node.js
 
 Iz direktorijuma projekta pokrenite komandu:
 
