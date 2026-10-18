@@ -1,0 +1,15 @@
+{
+  "id": "019fa61e-9d93-72bd-81d7-9539b6135c25",
+  "version": 1,
+  "name": "Tehnosen Products API",
+  "slug": "tehnosen-products-api",
+  "enableSession": true,
+  "protocol": "http",
+  "port": 3001,
+  "mockSrc": "./mock.js",
+  "autoRestartOnChange": true,
+  "logging": {
+    "level": "verbose",
+    "showBody": true
+  }
+}

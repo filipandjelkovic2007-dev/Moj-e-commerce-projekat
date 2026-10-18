@@ -1,0 +1,98 @@
+[
+  {
+    "id": 10400,
+    "title": "SAMSUNG Galaxy S25 12/128GB Ledeno-plavi",
+    "price": 980,
+    "description": "Galaxy S25 u Icy Blue izdanju kombinuje elegantan, kompaktan dizajn sa najnovijom tehnologijom, idealan za korisnike koji žele moćne performanse i vrhunsku kameru u telefonu koji je lako držati jednom rukom. Izrađen je od premium materijala poput titanijuma i Gorilla Glass Victus 2, uz IP68 ocenu za izdržljivost. Ekran nudi izuzetnu fluidnost i svetlinu, dok je Snapdragon 8 Elite čipset garancija za besprekorno obavljanje svih zadataka. Kamera sistem je značajno unapređen, a telefon nudi najnovije Android i One UI funkcije, uključujući Galaxy AI i podršku za Wi-Fi 7, što ga čini budućno-otpornim.",
+    "category": "Phones",
+    "brand": "SAMSUNG",
+    "size": "6.0-6.9",
+    "color": "Bela",
+    "inStock": true,
+    "image": "/slike/image67d92ef46a0b1.jpg.webp"
+  },
+  {
+    "id": 9020,
+    "title": "SAMSUNG Galaxy S25 FE 8/128GB Mint",
+    "price": 1040,
+    "description": "Samsung Galaxy S25 FE u svežoj Mint zelenoj boji spaja moderan izgled sa funkcijama za svakodnevni tempo. Bilo da razgovarate, gledate omiljeni sadržaj, fotografišete ili obavljate više stvari odjednom, pruža prijatno i pouzdano iskustvo tokom celog dana. Sa 128 GB prostora ima mesta za važne aplikacije, fotografije i uspomene, dok upečatljiva mint nijansa unosi vedar, prepoznatljiv detalj u vaš stil.",
+    "category": "Phones",
+    "brand": "SAMSUNG",
+    "size": "6.0-6.9",
+    "color": "Zelena",
+    "inStock": false,
+    "image": "/slike/samsung-mint-5g-s25-128-gb-cene.webp"
+  },
+  {
+    "id": 5100,
+    "title": "SAMSUNG Galaxy S25 Ultra 16/512GB Srebrni",
+    "price": 1380,
+    "description": "Samsung Galaxy S25 Ultra u elegantnoj srebrnoj boji namenjen je korisnicima koji od telefona očekuju vrhunsko iskustvo i mnogo prostora. Veliki ekran pruža impresivan prikaz za filmove, igre i rad, a napredni sistem kamera pomaže da zabeležite detaljne fotografije i upečatljive trenutke. Uz 512 GB memorije imate dovoljno prostora za aplikacije, snimke i obimnu kolekciju fotografija, dok podrška za S Pen olakšava beleške i precizan rad u pokretu.",
+    "category": "Phones",
+    "brand": "SAMSUNG",
+    "size": "6.0-6.9",
+    "color": "Siva",
+    "inStock": true,
+    "image": "/slike/samsung-galaxy-s25-ultra-12-512gb-titanium-whitesilver-svetlo-sivi-cene.webp"
+  },
+  {
+    "id": 7200,
+    "title": "SAMSUNG Galaxy S25 FE 8/128GB Crni",
+    "price": 1035,
+    "description": "Samsung Galaxy S25 FE u klasičnoj crnoj boji donosi sveden dizajn i pouzdanu svakodnevnu upotrebu. Uživajte u sadržaju na velikom ekranu, brzo prelazite između aplikacija i zabeležite važne trenutke kamerom telefona. Kapacitet od 128 GB pruža prostor za omiljene aplikacije, fotografije i dokumente, a neutralna crna završna obrada lako se uklapa uz svaki stil.",
+    "category": "Phones",
+    "brand": "SAMSUNG",
+    "size": "6.0-6.9",
+    "color": "Crna",
+    "inStock": false,
+    "image": "/slike/samsung-galaxy-s25-fe-5g-8gb-128gb-jet-black-sm-s731bzkdeuc-cene.webp"
+  },
+  {
+    "id": 15100,
+    "title": "SAMSUNG Galaxy S25 FE 8/128GB Navy",
+    "price": 1035,
+    "description": "Samsung Galaxy S25 FE u dubokoj Navy plavoj boji ističe se elegantnim izgledom, a pritom je spreman za sve što donosi dan. Veliki ekran čini gledanje sadržaja i pregled fotografija prijatnijim, dok telefon lako prati komunikaciju, zabavu i svakodnevne obaveze. Sa 128 GB prostora možete poneti svoje aplikacije i uspomene, a bogata plava nijansa daje uređaju poseban karakter.",
+    "category": "Phones",
+    "brand": "SAMSUNG",
+    "size": "6.0-6.9",
+    "color": "Plava",
+    "inStock": true,
+    "image": "/slike/s25fenavy1.jpg.webp"
+  },
+  {
+    "id": 5101,
+    "title": "SAMSUNG Galaxy S25 Ultra 12/128GB Koralno-crveni",
+    "price": 1265,
+    "description": "Samsung Galaxy S25 Ultra u upečatljivoj koralno-crvenoj boji spaja odvažan izgled sa iskustvom iz najviše klase. Veliki ekran pruža bogat prikaz za zabavu i rad, a napredne mogućnosti kamere omogućavaju da kreativno zabeležite svakodnevne prizore i posebne trenutke. Uz 128 GB memorije imate mesta za osnovne aplikacije i omiljene fotografije, dok podrška za S Pen donosi dodatnu preciznost pri pisanju i radu.",
+    "category": "Phones",
+    "brand": "SAMSUNG",
+    "size": "6.0-6.9",
+    "color": "Crvena",
+    "inStock": false,
+    "image": "/slike/samsung-galaxy-s25-coralred-removebg-preview.png"
+  },
+  {
+    "id": 10900,
+    "title": "SAMSUNG Galaxy S25 FE 8/128GB Amber-žuti",
+    "price": 1090,
+    "description": "Samsung Galaxy S25 FE u toploj Amber žutoj boji unosi vedrinu u moderan dizajn telefona. Napravljen je da olakša svakodnevne zadatke, od komunikacije i pregledanja sadržaja do fotografisanja trenutaka koje želite da sačuvate. Sa 128 GB prostora imate mesta za aplikacije i lične uspomene, a upečatljiva žuta nijansa pomaže da vaš telefon bude jedinstven i lako prepoznatljiv.",
+    "category": "Phones",
+    "brand": "SAMSUNG",
+    "size": "6.0-6.9",
+    "color": "Žuta",
+    "inStock": true,
+    "image": "/slike/Galaxy-S24-Amber-Yellow-Slika-1.webp"
+  },
+  {
+    "id": 30500,
+    "title": "APPLE MacBook Pro 14 M5 32/1TB Space Black",
+    "price": 2500,
+    "description": "Apple MacBook Pro 14 u Space Black izdanju donosi snažno i pouzdano okruženje za zahtevne projekte, kreativni rad i svakodnevnu produktivnost. Kompaktan 14-inčni format lako se uklapa u radni sto ili torbu, a kvalitetan ekran pruža prijatan prostor za uređivanje fotografija, rad sa dokumentima i uživanje u sadržaju. Sa 32 GB memorije možete nesmetano raditi sa više aplikacija, dok 1 TB skladišnog prostora nudi obilje mesta za projekte, datoteke i medije. Tamna završna obrada zaokružuje profesionalan i minimalistički izgled.",
+    "category": "Laptops",
+    "brand": "Apple",
+    "size": "14",
+    "color": "Crna",
+    "inStock": true,
+    "image": "/slike/black2_11.jpg.webp"
+  }
+]

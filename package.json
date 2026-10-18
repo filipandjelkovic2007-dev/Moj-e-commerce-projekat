@@ -1,0 +1,11 @@
+{
+  "name": "filip_andjelkovic_final_project",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static dev server for the project",
+  "scripts": {
+    "dev": "node dev.cjs",
+    "api": "node postman/mocks/mock.js",
+    "start": "node serve.cjs"
+  }
+}

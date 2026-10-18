@@ -1,0 +1,9 @@
+# Koristi se za konfiguraciju Postman resursa, uključujući kolekcije, okruženja i mape.
+workspace:
+  id: e07a551d-549e-46ed-8828-7f564f7a8619
+
+# Svi resursi u `postman/` folderu su automatski registrovani u lokalnom okruženju.
+# Ukažiti na dodatne datoteke izvan fascikle `postman/` kako bi se pojedinačno registovali. Primer:
+#localResources:
+#  collections:
+#    - ../tests/E2E Test Collection/

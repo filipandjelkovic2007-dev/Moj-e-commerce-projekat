@@ -1,0 +1,17 @@
+$kind: collection
+name: Tehnosen Products API
+variables:
+  - key: base_url
+    value: 'http://localhost:3001/api'
+  - key: product_id
+    value: '10400'
+  - key: username
+    value: ''
+  - key: password
+    value: ''
+  - key: email
+    value: ''
+  - key: birthdate
+    value: '1990-01-01'
+  - key: token
+    value: ''
