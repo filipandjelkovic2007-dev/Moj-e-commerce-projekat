@@ -60,7 +60,7 @@ function getProductsData() {
 }
 
 function applyPromotion(product, date = new Date()) {
-  const discountPercent = product.category === 'Laptops' && product.brand === 'SAMSUNG'
+  const discountPercent = product.category === 'Phones' && product.brand === 'SAMSUNG'
     ? 20
     : product.category === 'Laptops' && product.brand === 'Apple' && product.title.includes('MacBook Pro')
       ? 10
